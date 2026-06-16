@@ -1,0 +1,59 @@
+# OS / Linux
+
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+
+*.log
+
+# Kubernetes
+
+.kube/
+*.kubeconfig
+*.minikube/
+*.kind/
+
+# Terraform (if added later)
+
+*.tfstate
+*.tfstate.*
+
+# VirtualBox / VM files (IMPORTANT)
+
+*.vdi
+*.vmdk
+*.vbox-prev
+*.sav
+
+# Docker (future)
+
+*.tar
+docker-compose.override.yml
+
+# Python (for AI stack later)
+
+**pycache**/
+*.pyc
+.venv/
+
+# IDE
+
+.vscode/
+.idea/
+
+# Secrets (CRITICAL)
+
+.env
+*.pem
+*.key
+*.crt
+
+# Helm
+
+charts/*/charts/
+charts/*/tmp/
+
+.sentry-native/
